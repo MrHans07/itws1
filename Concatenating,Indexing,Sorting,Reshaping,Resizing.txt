@@ -1,0 +1,44 @@
+Experiment No. 7 : Performing Matrix Manipulation- Concatenating,Indexing,Sorting,Reshaping,Resizing. 
+
+V1 = [9 8 7;6 5 4] 
+
+A2 = [3 2 1;10 11 12] 
+
+V = [V1,A2] 
+
+w =cat(1,V1,A2) 
+
+k = cat(2,V1,A2) 
+
+V = [9 8 7 6 5 4] 
+
+A = V(4) 
+
+V = [9 8;7 6;5 4] 
+
+B = V(4) 
+
+A = [1 2 3 4 5 6 7 8] 
+
+B = [2 7]
+
+C = A(B) 
+
+A = [1 2 3 4 5 6] 
+C = A(3:5) 
+
+A = [8 36 28 93 82 81 29] 
+
+s = gsort(A,'g','i') 
+
+d = gsort(A,'g','d') 
+
+V = [3 6 7;8 9 5] 
+
+matrix(V,1,6) 
+
+matrix(V,2,3) 
+
+V1 = [5 4 3;7 8 9] 
+
+V2 = resize_matrix(V1,3,2) 

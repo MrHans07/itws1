@@ -1,0 +1,9 @@
+EXPERIMENT NO 8 :- Generating a sinusoidal wave of a given frequency and ploting with graphical enhancement-title, labeling , adding text. 
+
+
+BasebandFrequency = 10e3;
+SamplingFrequency = 1e6;
+BufferLength = 200;
+n = 0:(BufferLength - 1);
+BasebandSignal = sin(2*%pi*n / (SamplingFrequency/BasebandFrequency)); 
+plot(n, BasebandSignal)

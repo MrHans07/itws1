@@ -1,0 +1,15 @@
+Experiment No. 5 : Solve linear expression and round it to the nearest integer value using Round,Floor,Ceil and Fix operation. 
+
+v = [2 6 -9;-3 7 8;2 -4 6] 
+
+c = [15;-14;7] 
+
+l = linsolve(v,c) 
+
+fix(l) 
+
+round(l) 
+
+floor(l) 
+
+ceil(l) 
